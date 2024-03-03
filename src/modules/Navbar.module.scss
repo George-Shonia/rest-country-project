@@ -1,0 +1,12 @@
+.country-list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px 30px 70px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
