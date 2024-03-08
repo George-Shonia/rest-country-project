@@ -1,0 +1,39 @@
+.country-details-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    gap: 270px;
+    section {
+        img {
+            width: 500px;
+        }
+    }
+    .country-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 70px;
+        .country-lists {
+            display: flex;
+            gap: 150px;
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                li {
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
+
+.loading-page {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 300px;
+    padding-bottom: 400px;
+}

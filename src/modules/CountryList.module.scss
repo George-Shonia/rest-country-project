@@ -1,31 +1,47 @@
 .country-list-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 100px;
+    flex-wrap: wrap; /* Enable wrapping */
+    gap: 50px;
+  }
+  
+  .country-item {
+    flex: 0 0 calc(25% - 50px); /* 25% width with 50px gap */
+    display: flex;
     flex-direction: column;
-    .country-row {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        padding: 30px;
-        
-        
-        .country-item {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            background-color: white;
-            gap: 20px;
-            padding: 50px;
-            img {
-                display: flex;
-                align-items: center;
-                width: 320px;
-                height: 200px;
-            }
-            
-        }
+    align-items: flex-start;
+    background-color: white;
+    gap: 20px;
+    padding-bottom: 60px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-decoration: none;
+    color: black;
+  
+    img {
+      display: flex;
+      align-items: center;
+      width: 100%; /* Full width */
+      height: 200px;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
     }
-}
+  
+    h2 {
+      padding-left: 25px;
+    }
+  
+    ul {
+      display: flex;
+      flex-direction: column;
+      padding-left: 25px;
+      gap: 10px;
+  
+      li {
+        list-style: none;
+      }
+    }
+  }
+  

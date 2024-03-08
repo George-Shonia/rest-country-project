@@ -1,6 +1,6 @@
 .search-wrapper {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-top: 60px;
     padding-left: 70px;
     input {
@@ -12,6 +12,27 @@
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         &::placeholder {
             padding: 10px;
+          
+        }
+    }
+    .darkmode {
+        background-color: hsl(209, 23%, 22%);
+        &::placeholder {
+            color: white;
+        }
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+        margin-right: 100px;
+        border-radius: 7px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        .darkmode-p {
+            background-color: hsl(209, 23%, 22%);
         }
     }
 }
